@@ -1,0 +1,200 @@
+/*  global */
+@import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
+body {
+  font-family: "El Messiri", sans-serif, arial;
+  background-color: #fff;
+  font-size: 14px;
+  direction: rtl;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p.h4,
+p.h5 {
+  line-height: 1.8;
+}
+
+.bg-blue {
+  background-color: #2d3e50;
+}
+
+.bg-mint {
+  background-color: #19bc9d;
+}
+
+.bg-gray {
+  background-color: #f1f5e6;
+}
+
+.top-button {
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  left: 15px;
+  bottom: 10%;
+  display: none;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.top-button:hover {
+  cursor: pointer;
+  background-color: #19bc9d;
+}
+
+/*  //global */
+/* Headre */
+.lesson-header .navbar-nav--custom {
+  background-color: #01999a;
+}
+
+.lesson-header .navbar-nav--custom .nav-item {
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.lesson-header .navbar-nav--custom .nav-item.active {
+  background-color: #fff;
+}
+
+.lesson-header .navbar-nav--custom .nav-item.active .nav-link {
+  color: #2d3e50;
+}
+
+.lesson-header .navbar-nav--custom .nav-item:hover {
+  background-color: #fff;
+}
+
+.lesson-header .navbar-nav--custom .nav-item:hover .nav-link {
+  color: #2d3e50;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.lesson-header .navbar-nav--custom .nav-item .nav-link {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19bc9d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3e50;
+}
+
+/* // Header */
+/* carousel */
+.carousel-indicators .carousel-indicators__li--custom {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.carousel-indicators .carousel-indicators__li--custom.active {
+  background-color: #fff;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+/* carousel */
+@media (max-width: 575.98px) {
+  body {
+    padding-top: 75px;
+  }
+  p.h4,
+  p.h5 {
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
+  }
+  img.float-right,
+  img.float-left {
+    float: none !important;
+    display: block;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 15px;
+  }
+  .lesson-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .lesson-header #lesson-title {
+    font-size: 1.1rem;
+    text-align: right;
+  }
+  .lesson-header .navbar-toggler--custom {
+    background-color: #19bc9d;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  footer .footer-content {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  body {
+    padding-top: 75px;
+  }
+  p.h4,
+  p.h5 {
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
+  }
+  img.float-right,
+  img.float-left {
+    float: none !important;
+    display: block;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 15px;
+  }
+  .lesson-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .lesson-header #lesson-title {
+    font-size: 1.1rem;
+    text-align: right;
+  }
+  .lesson-header .navbar-toggler--custom {
+    background-color: #19bc9d;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+}
+
+/*# sourceMappingURL=style-ar.css.map */
