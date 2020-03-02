@@ -31,7 +31,7 @@ window.onresize = function() {
 };
 $(document).on("click", "a.scroll", function(e) {
   e.preventDefault();
-  console.log(navbarheight);
+
   var id = $(this).attr("href"),
     topSpace = $(".lesson-header").scrollTop();
   $("html, body").animate(
